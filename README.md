@@ -2,11 +2,11 @@
 made with Typescript and Browserify
 
 
-#install Typescript
+# install Typescript
 ```npm install -g typscript```
 
-#install browserify
-npm install -g browserify
+# install browserify
+```npm install -g browserify```
 
-#Start
+# Start
 simply open index.html in a browser
