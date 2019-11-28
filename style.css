@@ -1,0 +1,32 @@
+html,body {
+    margin: 0;
+    scroll-behavior: smooth;
+    background-color: rgb(178, 178, 178);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    margin: auto;
+}
+
+.board{
+    width: 250px;
+    height: 250px;
+    background-color: #88ee88;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat( auto-fit , minmax(70px,1fr));
+}
+
+.tile{
+    background-color: #000;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
